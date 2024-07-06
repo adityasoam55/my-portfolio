@@ -30,7 +30,7 @@ export default function About() {
           <img
             className=" w-full object-cover object-center rounded"
             alt="hero"
-            src="../.././public/coading.png"
+            src="/coading.png"
           />
         </div>
       </div>
