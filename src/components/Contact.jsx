@@ -74,8 +74,8 @@ export default function Contact() {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Open to work for the role of Front-end developer Intern,
-            Fresher React Developer. contact me below.
+            Open to work for the role of Front-end developer/Intern.
+            Facing some issue with form submition, Please contact through Email/Phone.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

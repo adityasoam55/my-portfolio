@@ -11,7 +11,7 @@ export const projects = [
     title: "Booking-Anytime",
     subtitle: "React and Tailwind",
     description:
-      "React-based travel booking website responsible for all screen sizes, Travel API is to display data according to user input. Search by place or hotel name, Unsplash API used to display images according to user input.",
+      "React-based travel booking website responsive for all screen sizes, Uses TravelPayout API to display data according to user input. Search by place or hotel name, Unsplash API used to display images.",
     image: "/project2.png",
     link: "https://booking-anytime.netlify.app",
   },
@@ -19,7 +19,7 @@ export const projects = [
     title: "Epic Todo App",
     subtitle: "React Hooks",
     description:
-      "ToDos Manager app with timestamps so that you can easily track your tasks, add your tasks, edit or modify them, delete them after the it is done.",
+      "ToDos Manager app with timestamps so that you can easily track your tasks, add your tasks, edit or modify them, delete them after task is completed.",
     image: "/project3.png",
     link: "https://mytodosmanager.netlify.app",
   },
@@ -33,11 +33,30 @@ export const projects = [
   },
 ];
 
+
 export const skills = [
-  "HTML/CSS",
-  "Tailwind CSS",
-  "JavaScript",
-  "React",
-  "Rest APIs",
-  "Git/GitHub"
+  {
+    title: "HTML/CSS",
+    icon: "IoLogoHtml5"
+  },
+  {
+    title: "Tailwind CSS",
+    icon: "RiTailwindCssFill"
+  },
+  {
+    title: "JavaScript",
+    icon: "IoLogoJavascript"
+  },
+  {
+    title: "React",
+    icon: "IoLogoReact"
+  },
+  {
+    title: "Rest APIs",
+    icon: "AiTwotoneApi"
+  },
+  {
+    title: "Git/GitHub",
+    icon: "IoLogoGithub"
+  },
 ];
