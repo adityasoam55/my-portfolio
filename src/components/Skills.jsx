@@ -19,13 +19,13 @@ export default function Skills() {
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
         <div className="text-center mb-20">
-          <HiOutlineChip className="w-20 h-10 inline-block mb-4" />
+          <HiOutlineChip className="w-20 h-10 inline-block mb-4 animate-bounce" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             While working on different projects from scratch, I have gained
-            different skill set, mention below are some of the main skills I gained.
+            different skill sets. Mentioned below are some of the main skills I have gained.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
@@ -40,7 +40,7 @@ export default function Skills() {
                       {skill.title}
                     </div>
                     <div>
-                      <IconComponent className="w-6 h-6" />
+                      <IconComponent className="w-6 h-6 animate-bounce" />
                     </div>
                   </div>
                 </div>

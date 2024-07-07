@@ -7,7 +7,7 @@ export default function Projects() {
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-        <HiOutlineCode className="mx-auto inline-block w-10 h-10 mb-4" />
+        <HiOutlineCode className="mx-auto inline-block w-10 h-10 mb-4 animate-bounce" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
@@ -19,6 +19,7 @@ export default function Projects() {
           {projects.map((project) => (
             <a
               href={project.link}
+              target="_blank"
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
