@@ -7,7 +7,7 @@ export const projects = [
     image: "/project1.png",
     link: "https://myeasycart.netlify.app",
     skills: [
-      "Tailwind CSS", "JavaScript", "React Js", "API Integration",
+      "Tailwind CSS", "JavaScript", "React Js", "API Integration", "form Validation",
     ]
   },
   {
