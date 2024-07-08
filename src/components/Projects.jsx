@@ -38,9 +38,9 @@ export default function Projects() {
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
                   <div className="mt-1">
-                    <ul className="list-none list-inside flex justify-center">
+                    <ul className="list-none list-inside flex flex-wrap justify-center">
                       {project.skills.map((skill, index) => (
-                        <li key={index} className="text-green-300 bg-gray-700 py-0.5 px-1 rounded ml-1">
+                        <li key={index} className="text-green-300 bg-gray-700 py-0.5 px-1 rounded ml-1 mb-1">
                           {skill}
                         </li>
                       ))}

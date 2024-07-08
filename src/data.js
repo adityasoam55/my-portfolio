@@ -40,7 +40,7 @@ export const projects = [
     image: "/project4.png",
     link: "https://react-routes55.netlify.app/",
     skills: [
-      "Tailwind CSS", "JavaScript", "React Js",
+     "HTML", "Tailwind CSS", "JavaScript", "React Js",
     ]
   },
 ];
