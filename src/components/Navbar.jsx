@@ -1,5 +1,5 @@
-// import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+import { HiOutlineArrowSmRight } from "react-icons/hi";
 
 export default function Navbar() {
   return (
@@ -25,10 +25,10 @@ export default function Navbar() {
           </a>
         </nav>
         <a
-          href="#contact"
+          href="#footer"
           className="inline-flex items-center bg-gray-800 text-gray-400 border-0 py-1 px-3 focus:outline-none hover:bg-gray-600 rounded text-base mt-4 md:mt-0">
           Hire Me
-          {/* <ArrowRightIcon className="w-4 h-4 ml-1" /> */}
+          <HiOutlineArrowSmRight className="w-4 h-4 ml-1" />
         </a>
       </div>
     </header>
