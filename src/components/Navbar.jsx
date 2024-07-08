@@ -1,5 +1,7 @@
 import React from "react";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
+import { motion } from "framer-motion";
+
 
 export default function Navbar() {
   return (
@@ -11,18 +13,39 @@ export default function Navbar() {
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center text-gray-400">
-          <a href="#projects" className="mr-5 hover:text-white">
+          <motion.a
+            href="#projects"
+            className="mr-5 hover:text-white"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
             Projects
-          </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          </motion.a>
+          <motion.a
+            href="#skills"
+            className="mr-5 hover:text-white"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
             Skills
-          </a>
-          <a href="https://www.linkedin.com/in/aditya-som55" target="_blank" className="mr-5 hover:text-white">
+          </motion.a>
+          <motion.a
+            href="https://www.linkedin.com/in/aditya-som55"
+            target="_blank"
+            className="mr-5 hover:text-white"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}>
             Linkedin
-          </a>
-          <a href="https://github.com/adityasoam55" target="_blank" className="mr-5 hover:text-white">
+          </motion.a>
+          <motion.a
+            href="https://github.com/adityasoam55"
+            target="_blank"
+            className="mr-5 hover:text-white"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
             GitHub
-          </a>
+          </motion.a>
         </nav>
         <a
           href="#footer"
