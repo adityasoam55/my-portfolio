@@ -1,14 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export default function About() {
+  const { ref, inView } = useInView({
+    triggerOnce: false,
+    threshold: 0.1,
+  });
+
   return (
     <section id="about">
-      <div className="container mx-auto flex px-10 py-14 md:flex-row flex-col items-center">
+      <div ref={ref} className="container mx-auto flex px-10 py-14 md:flex-row flex-col items-center">
         <motion.div
           className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
           initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
+          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 1 }}
         >
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
@@ -41,7 +47,7 @@ export default function About() {
         <motion.div
           className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"
           initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
+          animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
           transition={{ duration: 1.2 }}
         >
           <img
