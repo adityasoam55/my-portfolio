@@ -22,6 +22,17 @@ export const projects = [
     ]
   },
   {
+    title: "Try-Casuals",
+    subtitle: "React Routes ",
+    description:
+      "Try-Casuals an E-commerce website, fully responsive for all screen sizes. It's a basic website showing the smooth workflow of react routes, different API integration",
+    image: "/project4.png",
+    link: "https://trycasuals.netlify.app/",
+    skills: [
+      "Tailwind CSS", "JavaScript", "React Js", "API Integration", "Git/GitHub",
+    ]
+  },
+  {
     title: "Epic Todo App",
     subtitle: "React Hooks",
     description:
@@ -31,18 +42,7 @@ export const projects = [
     skills: [
       "HTML","Tailwind CSS", "JavaScript", "React Js",
     ]
-  },
-  {
-    title: "React-routes55",
-    subtitle: "React Routes ",
-    description:
-      "React Router website, fully responsive for all screen sizes. It's a basic website showing the smooth workflow of react routes.",
-    image: "/project4.png",
-    link: "https://react-routes55.netlify.app/",
-    skills: [
-     "HTML", "Tailwind CSS", "JavaScript", "React Js",
-    ]
-  },
+  }
 ];
 
 
