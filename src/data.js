@@ -7,7 +7,7 @@ export const projects = [
     image: "/project4.png",
     link: "https://trycasuals.netlify.app/",
     skills: [
-      "React Js", "Tailwind CSS", "API Integration","Form Validation","User Aunthentication",
+      "React Js", "Tailwind CSS", "API Integration","User Aunthentication",
     ]
   },
   {
@@ -18,7 +18,7 @@ export const projects = [
     image: "/project2.png",
     link: "https://booking-anytime.netlify.app",
     skills: [
-      "Tailwind CSS", "JavaScript", "React Js", "API Integration",
+      "Tailwind CSS", "React Js", "API Integration",
     ]
   },
   {
