@@ -1,13 +1,13 @@
 export const projects = [
   {
-    title: "MyEasyCart",
-    subtitle: "React E-commerce",
+    title: "Try-Casuals",
+    subtitle: "React Routes ",
     description:
-      "A React-based fully responsive e-commerce website, It uses the DummyJson API for fetching the real time data, Fromik and yup libraries are used for the form validation.",
-    image: "/project1.png",
-    link: "https://myeasycart.netlify.app",
+      "Try-Casuals an E-commerce website, fully responsive for all screen sizes. It's a basic website showing the smooth workflow of react routes, different API integration",
+    image: "/project4.png",
+    link: "https://trycasuals.netlify.app/",
     skills: [
-      "Tailwind CSS", "JavaScript", "React Js", "API Integration", "form Validation",
+      "Tailwind CSS", "JavaScript", "React Js", "API Integration", "Git/GitHub",
     ]
   },
   {
@@ -22,17 +22,6 @@ export const projects = [
     ]
   },
   {
-    title: "Try-Casuals",
-    subtitle: "React Routes ",
-    description:
-      "Try-Casuals an E-commerce website, fully responsive for all screen sizes. It's a basic website showing the smooth workflow of react routes, different API integration",
-    image: "/project4.png",
-    link: "https://trycasuals.netlify.app/",
-    skills: [
-      "Tailwind CSS", "JavaScript", "React Js", "API Integration", "Git/GitHub",
-    ]
-  },
-  {
     title: "Epic Todo App",
     subtitle: "React Hooks",
     description:
@@ -40,7 +29,18 @@ export const projects = [
     image: "/project3.png",
     link: "https://mytodosmanager.netlify.app",
     skills: [
-      "HTML","Tailwind CSS", "JavaScript", "React Js",
+      "HTML", "Tailwind CSS", "JavaScript", "React Js",
+    ]
+  },
+  {
+    title: "MyEasyCart",
+    subtitle: "React E-commerce",
+    description:
+      "A React-based fully responsive e-commerce website, It uses the DummyJson API for fetching the real time data, Fromik and yup libraries are used for the form validation.",
+    image: "/project1.png",
+    link: "https://myeasycart.netlify.app",
+    skills: [
+      "Tailwind CSS", "JavaScript", "React Js", "API Integration", "form Validation",
     ]
   }
 ];
