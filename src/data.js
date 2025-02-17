@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Try-Casuals",
-    subtitle: "React Routes ",
+    subtitle: "React E-commerce ",
     description:
       "Try-Casuals an E-commerce website, fully responsive for all screen sizes. It's a basic website showing the smooth workflow of react routes, different API integration",
     image: "/project4.png",
