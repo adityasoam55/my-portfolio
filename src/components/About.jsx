@@ -27,7 +27,7 @@ export default function About() {
           </p>
           <div className="flex justify-center">
             <motion.a
-              href="/AdityaSom-Resume.pdf"
+              href="/AdityaSomResume.pdf"
               download="AdityaSom-Resume.pdf"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
               whileHover={{ scale: 1.1 }}
