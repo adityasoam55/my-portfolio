@@ -18,7 +18,7 @@ export const projects = [
     subtitle: "React - Pokémon App",
     description:
       "A React-based responsive web app to explore Pokémon data with interactive cards, real-time search functionality, and a clean UI built with Tailwind CSS.",
-    image: "/project2.png", 
+    image: "/project2.png",
     link: "https://pokemonverse.netlify.app",
     skills: ["React Js", "Tailwind CSS", "REST API", "responsive-design"],
   },
@@ -32,13 +32,21 @@ export const projects = [
     skills: ["Tailwind CSS", "Framer-motion", "React Js", "responsive-design"],
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "FASTag Dashboard",
+    subtitle: "React - FASTag Management App",
     description:
-      "ToDos Manager app with timestamps so that you can easily track your tasks, add your tasks, edit or modify them, delete them after task is completed.",
-    image: "/project3.png",
-    link: "https://mytodosmanager.netlify.app",
-    skills: ["HTML", "Tailwind CSS", "JavaScript", "React Js"],
+      "Fully responsive dashboard built with React.js and Tailwind CSS. It allows users to manage FASTag wallet balance, recharge instantly, view detailed transaction history and Authentication using EmailJS.",
+    image: "/project-fastag.png",
+    link: "https://easy-fastag.netlify.app", // replace with your actual deployed link if different
+    skills: [
+      "React JS",
+      "Tailwind CSS",
+      "React Router",
+      "LocalStorage",
+      "Responsive Design",
+      "Session Management",
+      "EmailJS",
+    ],
   },
 ];
 

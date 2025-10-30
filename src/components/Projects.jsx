@@ -12,7 +12,9 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            I am passionate about solving problems in new creative ways to drive innovation. By leveraging my Front-end experience, I continually look for new and better ways to make tech accessible by all.
+            I am passionate about solving problems in new creative ways to drive
+            innovation. By leveraging my Front-end experience, I continually
+            look for new and better ways to make tech accessible by all.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -23,16 +25,16 @@ export default function Projects() {
               key={project.image}
               className="sm:w-1/2 w-full p-4"
             >
-              <div className="flex relative h-72">
+              <div className="flex relative h-72 ">
                 <img
                   alt="Project Image"
                   className="absolute inset-0 w-full h-full object-cover"
                   src={project.image}
                 />
                 <div className="px-8 py-7 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100 flex flex-col justify-center">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                  {/* <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
-                  </h2>
+                  </h2> */}
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
@@ -40,7 +42,10 @@ export default function Projects() {
                   <div className="mt-1">
                     <ul className="list-none list-inside flex flex-wrap justify-center">
                       {project.skills.map((skill, index) => (
-                        <li key={index} className="text-green-300 bg-gray-700 py-0.5 px-1 rounded ml-1 mb-1">
+                        <li
+                          key={index}
+                          className="text-green-300 bg-gray-700 py-0.5 px-1 rounded ml-1 mb-1"
+                        >
                           {skill}
                         </li>
                       ))}
