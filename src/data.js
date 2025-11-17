@@ -5,7 +5,7 @@ export const projects = [
     description:
       "Try-Casuals an E-commerce website, fully responsive for all screen sizes. It's a basic website showing the smooth workflow of react routes, different API integration",
     image: "/project4.png",
-    link: "https://trycasuals.netlify.app/",
+    link: "https://try-casuals.vercel.app",
     skills: [
       "React Js",
       "Tailwind CSS",
