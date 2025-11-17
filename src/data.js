@@ -14,6 +14,23 @@ export const projects = [
     ],
   },
   {
+    title: "My-App",
+    subtitle: "Full-Stack DashBoard App",
+    description:
+      "A full-stack MERN DashBoard application featuring user authentication, task management and seamless API integration. Built with Express, Node.js, and MongoDB for backend, and React with Tailwind CSS for the frontend.",
+    image: "/project3.png",
+    link: "https://my-app-fe-rust.vercel.app",
+    skills: [
+      "React Js",
+      "Tailwind CSS",
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "REST APIs",
+      "JWT Authentication",
+    ],
+  },
+  {
     title: "PokemonVerse",
     subtitle: "React - Pokémon App",
     description:
@@ -30,23 +47,6 @@ export const projects = [
     image: "/project1.png",
     link: "https://fanta-fever.netlify.app",
     skills: ["Tailwind CSS", "Framer-motion", "React Js", "responsive-design"],
-  },
-  {
-    title: "FASTag Dashboard",
-    subtitle: "React - FASTag Management App",
-    description:
-      "Fully responsive dashboard built with React.js and Tailwind CSS. It allows users to manage FASTag wallet balance, recharge instantly, view detailed transaction history and Authentication using EmailJS.",
-    image: "/project-fastag.png",
-    link: "https://easy-fastag.netlify.app", // replace with your actual deployed link if different
-    skills: [
-      "React JS",
-      "Tailwind CSS",
-      "React Router",
-      "LocalStorage",
-      "Responsive Design",
-      "Session Management",
-      "EmailJS",
-    ],
   },
 ];
 
