@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
+        <div className="flex flex-col w-full mb-10">
           <HiOutlineCode className="mx-auto inline-block w-10 h-10 mb-4 animate-bounce" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
@@ -17,6 +17,11 @@ export default function Projects() {
             look for new and better ways to make tech accessible by all.
           </p>
         </div>
+        <p className="mb-3">
+          Hover on Project to see{" "}
+          <span className="font-serif text-white">Details</span> and Click for{" "}
+          <span className="font-serif text-white">Live Preview</span>
+        </p>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a

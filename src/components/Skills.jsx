@@ -2,8 +2,16 @@ import React from "react";
 import { skills } from "../data";
 import { HiOutlineBadgeCheck, HiOutlineChip } from "react-icons/hi";
 import { AiTwotoneApi } from "react-icons/ai";
-import { IoLogoReact, IoLogoJavascript, IoLogoHtml5, IoLogoGithub } from "react-icons/io5";
+import {
+  IoLogoReact,
+  IoLogoJavascript,
+  IoLogoHtml5,
+  IoLogoGithub,
+} from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress, SiMongodb, SiMongoose, SiPostman } from "react-icons/si";
+import { MdSecurity } from "react-icons/md";
 
 const iconComponents = {
   IoLogoHtml5: IoLogoHtml5,
@@ -12,20 +20,28 @@ const iconComponents = {
   IoLogoReact: IoLogoReact,
   AiTwotoneApi: AiTwotoneApi,
   IoLogoGithub: IoLogoGithub,
+
+  FaNodeJs: FaNodeJs,
+  SiExpress: SiExpress,
+  SiMongodb: SiMongodb,
+  SiMongoose: SiMongoose,
+  MdSecurity: MdSecurity,
+  SiPostman: SiPostman,
 };
 
 export default function Skills() {
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
-          <HiOutlineChip className="w-20 h-10 inline-block mb-4 animate-bounce" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
+        <div className="text-center mb-12">
+          <HiOutlineChip className="w-20 h-10 inline-block mb-2 animate-bounce" />
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-3">
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             While working on different projects from scratch, I have gained
-            different skill sets. Mentioned below are some of the main skills I have gained.
+            different skill sets. Mentioned below are some of the main skills I
+            have gained.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

@@ -76,11 +76,36 @@ export const skills = [
     icon: "IoLogoReact",
   },
   {
-    title: "Rest APIs",
+    title: "REST APIs",
     icon: "AiTwotoneApi",
   },
   {
     title: "Git/GitHub",
     icon: "IoLogoGithub",
+  },
+
+  {
+    title: "Node.js",
+    icon: "FaNodeJs",
+  },
+  {
+    title: "Express.js",
+    icon: "SiExpress",
+  },
+  {
+    title: "MongoDB",
+    icon: "SiMongodb",
+  },
+  {
+    title: "Mongoose",
+    icon: "SiMongoose",
+  },
+  {
+    title: "JWT Authentication",
+    icon: "MdSecurity",
+  },
+  {
+    title: "Postman",
+    icon: "SiPostman",
   },
 ];
