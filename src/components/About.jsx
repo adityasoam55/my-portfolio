@@ -23,7 +23,7 @@ export default function About() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
             Hi, I'm Aditya.
             <br className="lg:inline-block" />
-            Front-End Developer.
+            Full-Stack Developer.
           </h1>
           <p className="mb-8 leading-relaxed">
             I am genuinely passionate about front-end development, and I'm eager
