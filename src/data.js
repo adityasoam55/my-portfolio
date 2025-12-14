@@ -31,13 +31,21 @@ export const projects = [
     ],
   },
   {
-    title: "PokemonVerse",
-    subtitle: "React - Pokémon App",
+    title: "YouTube Clone",
+    subtitle: "Full-Stack MERN Video Streaming App",
     description:
-      "A React-based responsive web app to explore Pokémon data with interactive cards, real-time search functionality, and a clean UI built with Tailwind CSS.",
+      "A full-stack MERN YouTube Clone application that allows users to browse, search, and watch videos with a modern UI. It includes dynamic video listings, watch page, channel avatars, and seamless API integration. Built using React and Tailwind CSS on the frontend, with Node.js, Express, and MongoDB powering the backend.",
     image: "/project2.png",
-    link: "https://pokemonverse.netlify.app",
-    skills: ["React Js", "Tailwind CSS", "REST API", "responsive-design"],
+    link: "https://youtube-fe-lemon.vercel.app",
+    skills: [
+      "React Js",
+      "Tailwind CSS",
+      "Node Js",
+      "Express Js",
+      "MongoDB",
+      "REST APIs",
+      "JWT Authentication",
+    ],
   },
   {
     title: "Fanta World",
